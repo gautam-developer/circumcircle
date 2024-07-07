@@ -1,0 +1,10 @@
+https://github.com/PHPMailer/PHPMailer
+
+Install above by running below command
+
+composer require phpmailer/phpmailer
+
+In mail.php
+configure your smtp server settings 
+
+and replace ur mail from test@testt.com

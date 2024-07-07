@@ -1,0 +1,417 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+    transition-duration: 0.1s;
+}
+.navbar ul li a{
+    font-weight: 600;
+    padding:1rem 2rem !important;
+}
+.navbar ul li a:hover{
+  background: linear-gradient(to right, #FF7422, #FAB311);
+  color:#fff !important;
+  border-radius: 5px;
+}
+.hero-section h1{
+    font-size: 4rem;
+    font-weight:bolder;
+}
+.hero-section a{
+    background-color: #DB6B29;
+    padding:1.3rem 2.4rem;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 6px;
+    font-weight:600;
+}
+.img-bg{
+  background-image: url(./images/it-staffing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding:10rem 0;
+}
+.img-bg-1{
+  background-image: url(./images/human-resources.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  padding:10rem 0;
+}
+.bg-color{
+background-color: #F4F2F2;
+box-sizing: border-box;
+padding: 3rem;
+background: #F4F2F2;
+border-bottom: 3px solid #DB6B29;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#carouselExampleIndicators{
+  padding-top: 7rem;
+}
+
+.bg-color .inner {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s, visibility 0.5s;
+}
+.outer a{
+  padding:0.7rem 2rem;
+  border:2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.bg-color .outer {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.5s;
+}
+
+.bg-color:hover{
+  background-color: #DB6B29;
+  color: white;
+}
+
+.bg-color:hover .inner {
+  display: none;
+  transition: opacity 0.3s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.bg-color:hover .outer {
+  transition: opacity 0.3s, visibility 0.5s;
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  animation:fadeInUp;
+  animation-duration: 1s;
+}
+
+
+
+  .headline{
+    font-size:2.2rem;
+    font-weight: bolder;
+
+  }
+  .headline-1{
+    font-size:1.3rem;
+    font-weight: bolder;
+    margin:0;
+
+  }
+  .staffing{
+    background-color: #eee;
+    opacity:0.9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .staffing p{
+    color:#000000;
+    font-size: 1rem;
+    line-height: normal;
+  }
+  .img-v img{
+    margin-right:0.4rem;
+  }
+  /*Core Values  */
+
+  .box-core{
+    background-color: #F4F2F2;
+    padding: 2rem;
+    position: relative;
+    border-radius: 8px;
+    height:200px;
+  }
+  .box-core h6{
+    color: #e76f00;
+  }
+  .box-core p{
+    font-size: 0.9rem;
+  }
+  .box-core h2{
+    padding-right: 1.5rem;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  
+/* what  sets us apart ? */
+.apart{
+  background-image: url(./images/Circumcircle-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0;
+  padding:0;
+}
+.apart img{
+  background-image: linear-gradient(180deg, #FF7422, #FAB311);
+  border-radius: 50%;
+  padding:1rem;
+}
+.for-space{
+  margin-right:1.4rem;
+}
+.for-space-left{
+  margin-left:1.4rem;
+}
+.apart h6{
+  font-weight:bold;
+}
+.apart p{
+  font-size: 1rem;
+  line-height: normal;
+}
+
+/* model work */
+.model-work{
+  background-color: #eee;
+}
+.model-work h6{
+  font-weight: bolder;
+}
+
+/* services offered */
+.service-box h6{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.service-box {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+  padding: 20px;
+  margin: 10px;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+.service-box{
+  background-color: #343a40;
+}
+.service-box:hover{
+  background-color: #e76f00;
+}
+
+/*  TALENT SCOUTING  */
+.serve-io {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+  background-color:#F4F2F2;
+  height:26rem;
+}
+.serve-io:hover{
+  color: #ffffff;
+  background-color: #e76f00;
+}
+.serve-io h6{
+  margin:1rem 0;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.serve-io h6:hover{
+  color: white;
+}
+.serve-io p{
+  font-size: 1rem;
+}
+
+#contact-details h4{
+  color: #e76f00;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+#contact-details h2{
+  font-weight: bolder;
+  font-size: 2.4rem;
+}
+#contact-details img{
+  margin-right:1.2rem;
+}
+#contact-details h6{
+  color: #e76f00;
+  font-size: 1rem;
+  font-weight: normal;
+}
+#contact-details p{
+  font-size: 1.3rem;
+}
+
+/* button */
+
+/* contact us page & hiring*/
+.about{
+  background: linear-gradient(to right, #FF7422, #FAB311);
+  padding:4rem 0;
+}
+.about a{
+  text-decoration: none;
+  padding:1rem 2rem;
+  background-color: #fff;
+  color:#000;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.about a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.about-hire{
+  background-color: #FAB311;
+  padding:8rem 0;
+}
+.about-hire a{
+  text-decoration: none;
+  padding:1rem 2rem;
+  background-color: #fff;
+  color:#000;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.about-hire a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.contact-form-1{
+  background-color: #FAB311;
+  border: 1px solid #c2c2c2;
+  box-shadow: #000;
+  padding:3rem !important;
+  border-radius: 10px;
+}
+.form-control{
+  padding:1rem !important;
+}
+#submit{
+    text-decoration: none;
+    padding:1rem 3rem;
+    background-color: #fff;
+    color:#000;
+    border-radius: 10px;
+    font-weight: 600;
+    border:none;
+  }
+#submit:hover{
+    background-color: #000;
+    color: #fff;
+  }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background: linear-gradient(to right, #FF7422, #FAB311);
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* responsive media query */
+
+
+@media (max-width: 800px){
+  section{
+    padding:0 !important;
+  }
+  .space-naved{
+    padding:1rem !important;
+  }
+  #navbarNav{
+    text-align: center;
+  }
+  .hero-section h1{
+    font-size:3rem;
+  }
+  .hero-section a{
+    padding:1rem 1rem;
+  }
+  .hero-section img{
+    margin-top:3rem;
+  }
+  .staffing-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .apart{
+    background-image: unset;
+  }
+  .img-change{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left !important;
+    justify-content:start !important;
+  }
+  .img-change img{
+    margin-right:1rem;
+  }
+  .for-space{
+    text-align: left;
+  }
+  .v-m{
+    display:flex !important;
+    flex-direction: column !important;
+  }
+  .for-margin{
+    margin-top:2rem;
+  }
+  .border-for{
+    padding-bottom: 1rem;
+  }
+  .media-space{
+    margin:0 !important;
+  }
+  .change-our{
+    margin: 2rem;
+  }
+  .our-contact{
+    padding:0 !important;
+  }
+  #our-industries{
+    padding:0 !important;
+  }
+  .about{
+    padding:5rem 0 !important;
+  }
+  .get-space{
+    margin-top:2rem !important;
+  }
+  .serve-io{
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+/* .wrap {
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+}
+.text {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  transition: opacity .5s;
+  opacity: 0;
+  position: absolute;
+  top: 1em; bottom: 1em; left: 1em; right: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap:hover .text {
+  opacity: 1;
+}
+img {
+  max-width: 100%;
+  display: block;
+} */
